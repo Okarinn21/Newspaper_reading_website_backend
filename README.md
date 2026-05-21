@@ -114,12 +114,12 @@ This will spin up the backend, MongoDB, and Redis together.
 Create a `.env` file at the project root:
 
 ```env
-MONGODB_URL=mongodb://localhost:27017
-DATABASE_NAME=newspaper_db
-REDIS_URL=redis://localhost:6379
-SECRET_KEY=your_secret_key_here
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
+MONGO_URI=
+DB_NAME=
+SECRET_KEY=
+ALGORITHM=
+ACCESS_TOKEN_EXPIRED_MINUTES=
+REDIS_URI=
 ```
 
 ---
