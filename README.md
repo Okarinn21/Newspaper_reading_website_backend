@@ -1,10 +1,10 @@
-# 📰 Newspaper Reading Website — Backend
+#  Newspaper Reading Website — Backend
 
 Backend API for an online newspaper reading platform, built with **FastAPI** and featuring an automated news crawler that runs continuously in the background.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **User Authentication** — Register and login with JWT (python-jose + bcrypt)
 - **Article Management** — Full CRUD for news articles with pagination
@@ -17,7 +17,7 @@ Backend API for an online newspaper reading platform, built with **FastAPI** and
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -32,7 +32,7 @@ Backend API for an online newspaper reading platform, built with **FastAPI** and
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -62,7 +62,7 @@ Backend API for an online newspaper reading platform, built with **FastAPI** and
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -109,7 +109,7 @@ This will spin up the backend, MongoDB, and Redis together.
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file at the project root:
 
@@ -124,7 +124,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 All routes are prefixed with `/api`.
 
@@ -146,7 +146,7 @@ Full interactive documentation is available at `/docs` once the server is runnin
 
 ---
 
-## 🤖 Auto-Crawl Mechanism
+##  Auto-Crawl Mechanism
 
 On startup, a background task launches an infinite loop:
 
@@ -158,7 +158,7 @@ If any error occurs, the crawler automatically retries after 10 seconds.
 
 ---
 
-## 🐳 Docker
+##  Docker
 
 For more details on Docker usage, see [`README.Docker.md`](./README.Docker.md).
 
@@ -172,12 +172,12 @@ docker-compose up --build
 
 ---
 
-## 👤 Author
+##  Author
 
 **KhanhDang21** — [GitHub](https://github.com/KhanhDang21)
 
 ---
 
-## 📄 License
+##  License
 
 This project does not currently have a license. Please contact the author before using it for commercial purposes.
